@@ -1,0 +1,21 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Biodata extends Model
+{
+    protected $table = 'biodata';
+
+    protected $fillable = [
+        'nama',
+        'alamat',
+        'ttl',
+        'kelas',
+        'sekolah',
+        'jurusan',
+        'email',
+        'telp'
+    ];
+}
