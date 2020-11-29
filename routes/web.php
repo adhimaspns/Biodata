@@ -20,6 +20,8 @@ use Illuminate\Support\Facades\Route;
     // Route resource biodata
     Route::resource('biodata', 'Backend\BiodataController');
 
+    Route::resource('Biodata', 'Frontend\FrontendController');
+
 
 
 
